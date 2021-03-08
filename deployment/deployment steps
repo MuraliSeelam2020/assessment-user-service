@@ -1,0 +1,5 @@
+# To create an image from Dockerfile
+docker build --tag=user-service:latest .
+
+# To run the container from our image:
+docker run -p8181:8181 user-service:latest
